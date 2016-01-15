@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api server ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "t.fujimoto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "crypto": "0.0.3",
+    "express": "^4.13.3",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.6.1",
+    "path": "^0.12.7"
+  }
+}
