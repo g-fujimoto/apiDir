@@ -1,1 +1,1 @@
-"use strict";var _=require("lodash");exports.index=function(e,o){var r={name:"Fujimoto",age:26};o.json(r)};
+"use strict";var _=require("lodash");exports.index=function(e,o){console.log("hello sample.index");var n={name:"Fujimoto",age:26};o.json(n)};
