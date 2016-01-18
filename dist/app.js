@@ -1,0 +1,1 @@
+"use strict";var path=require("path"),express=require("express"),morgan=require("morgan"),bodyParser=require("body-parser"),cookieParser=require("cookie-parser"),mongoose=require("mongoose"),config=require("./config/config.js"),app=express();app.listen(config.port),console.log("Gemstone's API Server Listening ... with port: 9999");
