@@ -12,7 +12,7 @@ const mongoose     = require('mongoose');
 
 /* ======================================================================================= External */
 const config = require('./config/config.js');
-const sample = require('./api/sample');
+const sample = require('./api/sample/index.js');
 
 /* ======================================================================================= CreateWebServer & MiddleWare */
 const app = express();

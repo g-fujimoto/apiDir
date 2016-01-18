@@ -6,6 +6,7 @@
 const _ = require('lodash');
 
 exports.index = (req, res) => {
+    console.log('hello sample.index');
     const data = {
         name: 'Fujimoto',
         age: 26
