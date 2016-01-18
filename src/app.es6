@@ -17,6 +17,8 @@ const sample = require('./api/sample');
 /* ======================================================================================= CreateWebServer & MiddleWare */
 const app = express();
 
+app.use(morgan('dev'));
+
 /* ======================================================================================= Routes */
 app.use('/api/sample', sample);
 
