@@ -1,0 +1,1 @@
+"use strict";var _=require("lodash");exports.index=function(e,o){var r={name:"Fujimoto",age:26};o.json(r)};
